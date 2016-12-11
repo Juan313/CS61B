@@ -1,0 +1,8 @@
+#!/bin/csh
+
+java SortPerf select 1 500 1000 select.dat
+java SortPerf insert 1 500 1000 insert.dat
+java SortPerf merge 1 500 1000 merge.dat
+java SortPerf quick 1 500 1000 quick.dat
+java SortPerf best 1 500 1000 best.dat
+
